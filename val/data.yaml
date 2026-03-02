@@ -1,0 +1,6 @@
+Train: Val.txt
+names:
+  0: mono_flakes
+  1: "flakes_n\xE3o_monos"
+  2: nucleo
+path: .

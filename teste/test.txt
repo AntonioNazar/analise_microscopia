@@ -1,0 +1,4 @@
+data/images/Test/HETMDB30_Spot1_1_nivelado_classified.png
+data/images/Test/HETMDB30_Spot5_3_nivelado_classified.png
+data/images/Test/HETMDB30_Spot5_4_nivelado_classified.png
+data/images/Test/HETMDB30_Spot5_8_nivelado_classified.png

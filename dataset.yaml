@@ -1,0 +1,8 @@
+train: "./treino/images/Train"
+test: "./teste/images/Test"
+val: "./val/images"
+
+names:
+  0: mono_flakes
+  1: "flakes_n\xE3o_monos"
+  2: nucleo
