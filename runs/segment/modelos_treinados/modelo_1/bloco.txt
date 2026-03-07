@@ -1,0 +1,15 @@
+from ultralytics import YOLO
+
+model = YOLO("yolov8s-seg.pt")   # pode ser n, s, m, l, x
+
+model.train(
+    data="/kaggle/working/dataset.yaml", # 3 classes
+    imgsz=1920,
+    batch= 2,
+    epochs=15,
+    augment=True,
+    degrees=15,
+    fliplr=0.5,
+    flipud=0.5,
+    save_period = 5,
+)
