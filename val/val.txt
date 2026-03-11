@@ -1,7 +1,7 @@
-data/images/Val/HETMDB28_Spot3_4_nivelado_classified.png
-data/images/Val/HETMDB28_Spot3_2_nivelado_classified.png
-data/images/Val/HETMDB28_Spot3_1_nivelado_classified.png
-data/images/Val/HETMDB28_Spot2_9_nivelado_classified.png
-data/images/Val/HETMDB28_Spot2_8_nivelado_classified.png
-data/images/Val/HETMDB28_Spot1_9_nivelado_classified.png
+data/images/val/HETMDB28_Spot3_4_nivelado_classified.png
+data/images/val/HETMDB28_Spot3_2_nivelado_classified.png
+data/images/val/HETMDB28_Spot3_1_nivelado_classified.png
+data/images/val/HETMDB28_Spot2_9_nivelado_classified.png
+data/images/val/HETMDB28_Spot2_8_nivelado_classified.png
+data/images/val/HETMDB28_Spot1_9_nivelado_classified.png
 
