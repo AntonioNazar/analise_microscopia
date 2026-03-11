@@ -204,10 +204,3 @@ A automação da análise de microscopia possui aplicações em:
 
 O uso de **Machine Learning em dados científicos** é uma área em rápido crescimento.
 
----
-
-# 👨‍💻 Autor
-
-**Antonio Nazar**
-
-Projetos de **Data Science e Visão Computacional aplicados a problemas reais**.
