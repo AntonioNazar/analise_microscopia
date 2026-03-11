@@ -1,5 +1,13 @@
 # 🔬 Visão Computacional para Análise de Microscopia Óptica
 
+# Instalação
+
+Instale as dependências com:
+
+```bash
+pip install -r requirements.txt
+```
+
 Pipeline de **Deep Learning aplicado à análise automatizada de imagens de microscopia óptica**, utilizando modelos modernos de **segmentação de objetos** para detectar e analisar microestruturas em materiais.
 
 Este projeto demonstra a aplicação prática de **Visão Computacional, Deep Learning e análise de dados científicos** para transformar imagens experimentais em **dados quantitativos estruturados**.
