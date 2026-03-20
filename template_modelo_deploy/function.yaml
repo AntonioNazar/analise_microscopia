@@ -1,0 +1,37 @@
+metadata:
+  name: yolo_flakes
+  namespace: cvat
+  annotations:
+    name: yolo_flakes
+    type: detector
+    framework: pytorch
+    spec: |
+      [
+        { "id": 0, "name": "mono_flakes" }
+      ]
+
+spec:
+  description: yolo_flakes
+  runtime: "python:3.11"
+  handler: main:handler
+  eventTimeout: 30s
+
+  build:
+    baseImage: python:3.11-slim
+    commands:
+      - apt-get update && apt-get install -y --no-install-recommends libgl1 libglib2.0-0 && rm -rf /var/lib/apt/lists/*
+      - pip install --no-cache-dir --default-timeout=1000 torch torchvision --index-url https://download.pytorch.org/whl/cpu
+      - pip install --no-cache-dir ultralytics opencv-python-headless numpy jsonpickle
+
+    directives:
+      postCopy:
+        - kind: COPY
+          value: . /opt/nuclio/
+
+  triggers:
+    myHttpTrigger:
+      maxWorkers: 2
+      kind: "http"
+      workerAvailabilityTimeoutMilliseconds: 10000
+      attributes:
+        maxRequestBodySize: 33554432
